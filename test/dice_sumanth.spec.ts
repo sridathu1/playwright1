@@ -16,6 +16,7 @@ test('Login to Dice.com and Search and Apply', async ({ browser }) => {
     await page.goto('https://www.dice.com/login');
     //im chNGINF FOR A BUG FIX
     // test pull
+    // i am changinf for bug#2
 
     //open browser in full screen
     // Fill in the email and password fields
