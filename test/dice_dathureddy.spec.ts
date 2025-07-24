@@ -34,7 +34,7 @@ test('Login to Dice.com and Search and Apply', async ({ browser }) => {
     await page.getByText('United States', { exact: true }).nth(1).click();
     await page.getByTestId('job-search-search-bar-search-button').click();
     await page.getByRole('button', { name: 'All filters' }).click();
-    await page.locator('//label[contains(text(),"Today")]').click();
+    await page.locator('//label[contains(text(),"Last 7 days")]').click();
     await page.getByRole('button', { name: 'Apply filters' }).click();
 
     let currentPage = 1;
